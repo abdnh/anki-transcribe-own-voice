@@ -1,1 +1,4 @@
-{}
+{
+    "provider": "whisper",
+    "language": "en"
+}

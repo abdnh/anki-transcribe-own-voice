@@ -1,0 +1,2 @@
+-   `provider`: The name of the ASR service to use. Check the config of the Speech Recognition add-on for a list of supported services. Provider-specific config options are take from the latter add-on.
+-   `language`: Language code.

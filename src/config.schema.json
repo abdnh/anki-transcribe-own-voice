@@ -1,6 +1,9 @@
 {
     "properties": {
-        "foo": {
+        "provider": {
+            "type": "string"
+        },
+        "language": {
             "type": "string"
         }
     },

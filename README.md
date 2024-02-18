@@ -4,8 +4,6 @@ This Anki add-on hooks into Anki's Record Own Voice feature to transcribe your r
 
 When you click on the Record Own Voice action in the review screen, the add-on will take your recording, transcribe it using the Speech Recognition add-on and show the text to you in a small window.
 
-_Work in progress_.
-
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a list of changes.
