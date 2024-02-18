@@ -1,0 +1,351 @@
+aiohttp==3.9.3
+    # via
+    #   asr
+    #   deepgram-sdk
+aiosignal==1.3.1
+    # via
+    #   aiohttp
+    #   asr
+anki==23.12.1
+    # via aqt
+ankiscripts @ git+https://github.com/abdnh/ankiscripts@d93083b033509d1a6e5f0d8493e9b3aa03d15fba
+    # via -r requirements/dev.in
+ankiutils @ git+https://github.com/abdnh/ankiutils@29652295f7e1d2aff55e000a66fbc239de8c6224
+    # via
+    #   -r requirements\bundle.in
+    #   asr
+annotated-types==0.6.0
+    # via
+    #   asr
+    #   pydantic
+anyio==4.2.0
+    # via
+    #   asr
+    #   httpx
+    #   openai
+aqt==23.12.1
+    # via -r requirements/dev.in
+asr @ git+https://github.com/abdnh/anki-asr
+    # via -r requirements/dev.in
+astroid==3.0.3
+    # via pylint
+async-timeout==4.0.3
+    # via
+    #   aiohttp
+    #   asr
+attrs==23.2.0
+    # via
+    #   aiohttp
+    #   asr
+    #   jsonschema
+    #   referencing
+beautifulsoup4==4.12.3
+    # via
+    #   anki
+    #   aqt
+black==24.2.0
+    # via -r requirements/dev.in
+blinker==1.7.0
+    # via flask
+build==1.0.3
+    # via pip-tools
+certifi==2024.2.2
+    # via
+    #   asr
+    #   httpcore
+    #   httpx
+    #   requests
+cfgv==3.4.0
+    # via pre-commit
+charset-normalizer==3.3.2
+    # via requests
+click==8.1.7
+    # via
+    #   black
+    #   flask
+    #   pip-tools
+colorama==0.4.6
+    # via
+    #   asr
+    #   build
+    #   click
+    #   pylint
+    #   pytest
+    #   tqdm
+coverage==7.4.1
+    # via pytest-cov
+dataclasses-json==0.6.4
+    # via
+    #   asr
+    #   deepgram-sdk
+decorator==5.1.1
+    # via anki
+deepgram-sdk==3.1.4
+    # via asr
+dill==0.3.8
+    # via pylint
+distlib==0.3.8
+    # via virtualenv
+distro==1.9.0
+    # via
+    #   asr
+    #   openai
+exceptiongroup==1.2.0
+    # via
+    #   anyio
+    #   asr
+    #   pytest
+filelock==3.13.1
+    # via virtualenv
+flask==3.0.2
+    # via
+    #   aqt
+    #   flask-cors
+flask-cors==4.0.0
+    # via aqt
+frozenlist==1.4.1
+    # via
+    #   aiohttp
+    #   aiosignal
+    #   asr
+h11==0.14.0
+    # via
+    #   asr
+    #   httpcore
+httpcore==1.0.3
+    # via
+    #   asr
+    #   httpx
+httpx==0.26.0
+    # via
+    #   asr
+    #   deepgram-sdk
+    #   openai
+identify==2.5.34
+    # via pre-commit
+idna==3.6
+    # via
+    #   anyio
+    #   asr
+    #   httpx
+    #   requests
+    #   yarl
+importlib-metadata==7.0.1
+    # via
+    #   build
+    #   flask
+    #   markdown
+iniconfig==2.0.0
+    # via pytest
+isort==5.13.2
+    # via
+    #   -r requirements/dev.in
+    #   pylint
+itsdangerous==2.1.2
+    # via flask
+jinja2==3.1.3
+    # via flask
+jsonschema==4.21.1
+    # via
+    #   ankiscripts
+    #   aqt
+jsonschema-specifications==2023.12.1
+    # via jsonschema
+markdown==3.5.2
+    # via anki
+markupsafe==2.1.5
+    # via
+    #   jinja2
+    #   werkzeug
+marshmallow==3.20.2
+    # via
+    #   asr
+    #   dataclasses-json
+mccabe==0.7.0
+    # via pylint
+multidict==6.0.5
+    # via
+    #   aiohttp
+    #   asr
+    #   yarl
+mypy==1.8.0
+    # via -r requirements/dev.in
+mypy-extensions==1.0.0
+    # via
+    #   asr
+    #   black
+    #   mypy
+    #   typing-inspect
+nodeenv==1.8.0
+    # via pre-commit
+openai==1.12.0
+    # via asr
+orjson==3.9.14
+    # via anki
+packaging==23.2
+    # via
+    #   asr
+    #   black
+    #   build
+    #   marshmallow
+    #   pytest
+pathspec==0.12.1
+    # via black
+pip-tools==7.4.0
+    # via -r requirements\base.in
+platformdirs==4.2.0
+    # via
+    #   black
+    #   pylint
+    #   virtualenv
+pluggy==1.4.0
+    # via pytest
+pre-commit==3.6.1
+    # via -r requirements/dev.in
+prompt-toolkit==3.0.36
+    # via questionary
+protobuf==4.25.3
+    # via anki
+psutil==5.9.8 ; sys_platform == "win32"
+    # via
+    #   -r requirements/dev.in
+    #   anki
+    #   aqt
+pydantic==2.6.1
+    # via
+    #   asr
+    #   openai
+pydantic-core==2.16.2
+    # via
+    #   asr
+    #   pydantic
+pylint==3.0.3
+    # via -r requirements/dev.in
+pyproject-hooks==1.0.0
+    # via
+    #   build
+    #   pip-tools
+pyqt6==6.6.1
+    # via
+    #   ankiscripts
+    #   aqt
+    #   pyqt6-webengine
+pyqt6-qt6==6.6.2
+    # via pyqt6
+pyqt6-sip==13.6.0
+    # via
+    #   pyqt6
+    #   pyqt6-webengine
+pyqt6-webengine==6.6.0
+    # via aqt
+pyqt6-webengine-qt6==6.6.2
+    # via pyqt6-webengine
+pysocks==1.7.1
+    # via requests
+pytest==8.0.1
+    # via
+    #   -r requirements/dev.in
+    #   pytest-cov
+pytest-cov==4.1.0
+    # via -r requirements/dev.in
+pyupgrade==3.15.0
+    # via -r requirements/dev.in
+pywin32==306 ; sys_platform == "win32"
+    # via
+    #   -r requirements/dev.in
+    #   aqt
+pyyaml==6.0.1
+    # via pre-commit
+questionary==2.0.1
+    # via ankiscripts
+referencing==0.33.0
+    # via
+    #   jsonschema
+    #   jsonschema-specifications
+requests==2.31.0
+    # via
+    #   anki
+    #   aqt
+rpds-py==0.18.0
+    # via
+    #   jsonschema
+    #   referencing
+send2trash==1.8.2
+    # via aqt
+sniffio==1.3.0
+    # via
+    #   anyio
+    #   asr
+    #   httpx
+    #   openai
+soupsieve==2.5
+    # via beautifulsoup4
+tokenize-rt==5.2.0
+    # via pyupgrade
+tomli==2.0.1
+    # via
+    #   black
+    #   build
+    #   coverage
+    #   mypy
+    #   pip-tools
+    #   pylint
+    #   pyproject-hooks
+    #   pytest
+tomlkit==0.12.3
+    # via pylint
+tqdm==4.66.2
+    # via
+    #   asr
+    #   openai
+typing-extensions==4.9.0
+    # via
+    #   anyio
+    #   asr
+    #   astroid
+    #   black
+    #   deepgram-sdk
+    #   mypy
+    #   openai
+    #   pydantic
+    #   pydantic-core
+    #   pylint
+    #   typing-inspect
+typing-inspect==0.9.0
+    # via
+    #   asr
+    #   dataclasses-json
+urllib3==2.2.0
+    # via requests
+verboselogs==1.7
+    # via
+    #   asr
+    #   deepgram-sdk
+virtualenv==20.25.0
+    # via pre-commit
+waitress==3.0.0
+    # via aqt
+wcwidth==0.2.13
+    # via prompt-toolkit
+websockets==12.0
+    # via
+    #   asr
+    #   deepgram-sdk
+werkzeug==3.0.1
+    # via flask
+wheel==0.42.0
+    # via pip-tools
+yarl==1.9.4
+    # via
+    #   aiohttp
+    #   asr
+zipp==3.17.0
+    # via importlib-metadata
+
+# The following packages are considered to be unsafe in a requirements file:
+pip==24.0
+    # via pip-tools
+setuptools==69.1.0
+    # via
+    #   nodeenv
+    #   pip-tools
